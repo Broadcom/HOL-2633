@@ -1,4 +1,3 @@
-Murray was here
 THIS IS AN EXAMPLE. REPLACE THIS WITH YOUR OWN README.txt using the pattern below.
 
 This is customer facing so please make it look professional. Thanks.
