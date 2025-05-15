@@ -1,3 +1,4 @@
+Murray was here
 THIS IS AN EXAMPLE. REPLACE THIS WITH YOUR OWN README.txt using the pattern below.
 
 This is customer facing so please make it look professional. Thanks.
@@ -7,7 +8,7 @@ This file can be updated and will be copied to the console desktop at startup.
 NOTE: this file is public so NEVER include passwords.
 
 * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
-*                       HOL-26XX Title of Your Lab                              *
+*                       HOL-2633 Title of Your Lab                              *
 * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - * - *
 
 Primary benefits of your lab.
