@@ -28,3 +28,7 @@
     Port 22
     IdentityFile ~/.ssh/id_ed25519
     ```
+2. Connect local vsCode instance to HOL-2633 repo
+    * Copy a local SSH public key to PSO github profile.  As shown in this screenshot
+    * ![alt text](image-1.png)
+    * in vsCode connect to a new repo using the SSH path to the repo: ```git@github-vcf.devops.broadcom.net:PSO/HOL-2633.git```
