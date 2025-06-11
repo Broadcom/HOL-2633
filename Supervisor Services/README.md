@@ -9,6 +9,14 @@
     * Add harbor FQDN to DNS.  FQDN is **harbor-01a.site-a.vcf.lab**.  
     NOTE: add this to local console host table until the DNSMasq app is fixed.  
     * Harbor IP address is the external ingress controller IP from the Contour service.
+## Prep MGMT vCenter for Mod 1
+We need to do some prereqs to the vCenter and Cluster in order to activate the vSphere Zones.  You can create the zone on a cluster but it will not be compatible with the Supervisor.  Here is the error you will recieve. ![
+](image.png)
+To mitigate do the follow before vPOD check-in.  From the VCF 9 documentation
+* Create on or three vSphere clusters with at least 3 hosts in each zone. For storage with vSAN, the cluster must have 4 hosts. For test of POC environments, each cluster must have at least 1 hosts, and 2 hosts when using vSAN.
+* Configure storage with vSAN or other shared storage solution for each cluster.
+* Enable vSphere HA and vSphere DRS on Fully Automate or Partially Automate mode.
+* All clusters must be connected to the same VDS and Management traffic network.
 ## vsCode setup
 1. Validate you can ssh into the manager VM & console VM
     * Manger VM is at vPOD external IP address port 5480
