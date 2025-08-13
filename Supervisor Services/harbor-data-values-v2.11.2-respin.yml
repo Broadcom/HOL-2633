@@ -18,7 +18,7 @@ enableNginxLoadBalancer: false
 enableContourHttpProxy: true
 
 #! [Required] The initial password of Harbor admin.
-harborAdminPassword: VMware123!
+harborAdminPassword: ChangeMe
 
 #! [Required] The secret key used for encryption. Must be a string of 16 chars.
 secretKey: 0123456789ABCDEF
