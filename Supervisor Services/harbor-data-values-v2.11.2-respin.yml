@@ -29,24 +29,24 @@ database:
   type: internal
   #! [Required] The initial password of the internal postgres database.
   #! if external database is used, please fill the external.password
-  password: VMware1!
+  password: ChangeMe
 
 core:
   replicas: 1
   #! [Required] Secret is used when core server communicates with other components.
-  secret: VMware1!
+  secret: ChangeMe
   #! [Required] The XSRF key. Must be a string of 32 chars.
   xsrfKey: 0123456789ABCDEF0123456789ABCDEF
 jobservice:
   replicas: 1
   #! [Required] Secret is used when job service communicates with other components.
-  secret: VMware1!
+  secret: ChangeMe
 registry:
   replicas: 1
   #! [Required] Secret is used to secure the upload state from client
   #! and registry storage backend.
   #! See: https://github.com/docker/distribution/blob/master/docs/configuration.md#http
-  secret: VMware1!
+  secret: ChangeMe
 
 #! The persistence is always enabled and a default StorageClass
 #! is needed in the k8s cluster to provision volumes dynamically.
